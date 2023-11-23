@@ -37,7 +37,7 @@ int main(int argc, char **argb)
 			line++;
 			continue;
 		}
-		instruction(buff, stack, line);
+		/*instruction(buff, stack, line);*/
 		line++;
 	}
 	fclose(fptr);
